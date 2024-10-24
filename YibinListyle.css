@@ -432,6 +432,7 @@ nav {
     border-radius: 2rem;
     border: 0.1rem solid rgb(163, 163, 163); 
     margin-bottom: 25px;
+    width: 100%; 
 }
 
 /**************footer***/
