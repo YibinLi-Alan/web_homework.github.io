@@ -1,0 +1,429 @@
+/* CSS Reset: http://meyerweb.com/eric/tools/css/reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#main {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#nav a,#footer a{
+    color:black;
+    text-decoration:none;
+}
+
+#body{
+    font-family: 'Lora', serif;
+    color:black;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+a:hover {
+    border-bottom: 1px solid #4a85c8;
+    color:gray;
+    text-decoration:undelrine;
+    text-underline-offset:irem;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 24px;
+    width: 100%;
+    margin: 30px auto 20px 0px;
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 18px;
+    width: 100%;
+    margin: 30px auto 20px 30px;
+    color: black;
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-top:25px;
+    margin-bottom:25px
+}
+
+.divider2 {
+    width: 30%;
+    border-bottom: 1px solid #ddd;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+
+#spin{
+    font-weight:bold;
+}
+
+#footer p {
+	font-size: 9px;
+	text-align: right;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+a,.btn {
+    transition: all 300ms ease;
+}
+
+body {
+    background-image: url('white2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*********************************desktop navigation*/
+nav,.nav-links{
+    display:flex;
+}
+
+nav {
+    justify-content:space-around;
+    align-items:center;
+    height:17vh;
+}
+
+.nav-links{
+    gap:2rem;
+    list-style:none;
+    font-size:16px;
+}
+
+.logo{
+    font-size:40px;
+    color:black;
+    font-weight:bolder;
+}
+
+.logo:hover{
+    cursor:default;
+}
+
+#nav {
+    background-color:none;
+}
+
+
+
+/***************************humberger menu************/
+
+#humberger-nav{
+    display:none;
+
+}
+
+.humberger-menu{
+    position:relative;
+    display:inline-block;
+}
+
+.humberger-icon{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:24px;
+    width:30px;
+    cursor:pointer;
+    color:white;
+}
+
+.humberger-icon span{
+    width:100%;
+    height:2px;
+    background-color:white;
+    transition: all 300ms ease-in-out;
+    color:white;
+}
+
+.menu-links{
+    position:absolute;
+    top:100%;
+    right:0;
+    color:white;
+    max-height:0;
+    overflow:hidden;
+    transition: all 300ms ease-in-out;
+}
+
+
+.menu-links a{
+    display:block;
+    padding:10px;
+    text-align:center;
+    font-size:1.5srem;
+    color:white;
+    text-decoration:none;
+    transition: all 300ms ease-in-out;
+}
+
+.menu-links li{
+    list-style:none;
+}
+
+.menu-links.open{
+    max-height:300px;
+}
+
+.humberger-icon.open span:first-child{
+    transform: rotate(45deg) translate(10px,5px);
+}
+
+.humberger-icon.open span:nth-child{
+   opacity:0;
+}
+
+.humberger-icon.open span:last-child{
+    transform: rotate(-45deg) translate(10px,-5px);
+}
+
+
+.humberger-icon span:first-child{
+    transform: none;
+}
+
+.humberger-icon span:first-child{
+    opacity:1;
+}
+
+.humberger-icon span:first-child{
+    transform:none;
+}
+
+
+
+
+
+
+
+
+
+/******** header ***********/
+#header {
+    height: 60px;
+    font-size: 14px;
+    line-height: 58px;
+    padding-top: 42px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    padding-right: 30px;
+}
+
+/************** profile*******/
+
+#About{
+    background-color:white;
+}
+
+#profile_picture {
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#myself {
+    width: 220px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+#introduction_name{
+    font-size: 24px;
+    line-height: 18px;
+    width: 100%;
+    margin: 30px auto 20px 30px;
+    color: black;
+    font-weight:bold;
+}
+
+#Pro-introduction p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#socials-container{
+    display:flex;
+    justify-content:left;
+    margin-top:1rem;
+    gap:1rem;
+}
+
+.icon {
+    display: inline-block; 
+    height: 2rem;
+    cursor: pointer;
+}
+
+/**********internship************/
+
+#internship_section{
+    position:relative;
+}
+
+
+
+
+.internship img{
+    width: 180px;
+    float:left;
+    margin-right:30px;
+    margin-left:30px;
+    margin-top:7px;
+    margin-bottom: 20px;
+}
+
+.internship_location{
+    margin-top: 10px;
+}
+
+.idid1{
+    margin-top:56px;
+}
+
+.idid2{
+    margin-top:120px;
+}
+
+.idid3{
+    margin-top:154px;
+}
+
+.internship{
+    padding:1.5rem;
+    flex:1;
+    background:white;
+    border-radius:2rem;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color:rgb(163,163,163);
+    text-align:left;
+}
+
+/*****************research*******/
+.research_instuctor,.research_experience,.research_time,.experence_in_research,.publications,.publication_member{
+    margin-left:30px;
+}
+
+.Research_Projects {
+    background: white;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(163, 163, 163); 
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-left:30px;
+}
+
+.download-button:hover {
+    background-color: gray; /* Darker green when hovered */
+}
+
+
+
+/************hobbies****/
+.cs2,.ED,.gym,.bk{
+    display:table;
+    width:100%;
+    margin-left:30px;
+}
+
+.hobbies img{
+    float:left;
+    width:150px;
+    margin-right:20px;
+    margin-left:30px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+#ht{
+    font-weight:bold;
+    font-size:18px;
+}
+
+.hobbies {
+    background: white;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(163, 163, 163); 
+    margin-bottom: 25px;
+}
+
+/**************footer***/
+footer{
+    height:26vh;
+    margin:0;
+}
+
+footer p {
+    text-align:center;
+}
+
+

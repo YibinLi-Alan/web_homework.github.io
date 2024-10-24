@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+		<title>Yibin Li - Homepage</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="YibinListyle.css" />
+        <link rel="stylesheet" href="YibinLimedia.css" />
+</head>
+
+<!-- the whole body  -->
+<body id="body">
+    <!-- first div-->
+
+    <div id="main">
+        <!--leave a blank at top-->
+        <header id="header"></header>
+
+        <!--navigation-->
+        <section id="nav">
+        <nav id="desktop-nav">
+            <div class="logo">Yibin Li</div>
+            <div > 
+                <ul class="nav-links">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#internship_section">Intership</a></li>
+                    <li><a href="#research_publication">Research & Publication</a></li>
+                    <li><a href="#hobbies_forme">Hobbies</a></li>
+                </ul>
+            </div>
+         </nav>
+         <nav id="humberger-nav">
+            <div class="logo">Yibin Li</div>
+            <div class="humberger-menu">
+                <div class="humberger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#internship_section" onclick="toggleMenu()">Intership</a></li>
+                    <li><a href="#research_publication" onclick="toggleMenu()">Research & Publication</a></li>
+                    <li><a href="#hobbies_forme" onclick="toggleMenu()">Hobbies</a></li>
+                </div>
+
+            </div>
+         </nav>
+        </section>
+
+        <!--divid-->
+        <div class="divider"></div>
+        <!--divid-->
+    
+         
+        <section id="About">
+        <div id="profile">
+            <!--section for introduction-->
+            <div id = 'profile_picture'>
+                <img id="myself" src="picture/mypicture.jpeg" alt="profile pic">
+            </div>
+            <div id = 'Pro-introduction'>
+                <div id="introduction_name">About Me</div>
+                <p><spin id="spin">Date of Birth:</spin> 2002-01-01</p>
+                <p></p>
+                <p><spin id="spin">Email:</spin><a href="mailto:yl1857@scarletmail.rutgers.edu">yl1857@scarletmail.rutgers.edu</a></p>
+                <p>
+                    I am a senior student studying in business analytic and information technology 
+                    at Rutgers University.
+                </p>
+                <p> I am an international student from China, studying in USA since 2017. I finished my highschool education in Massachusetts state.
+                    Little fun fact about me is I am Korean Chinese so I know how to speak Mandarin, Korean and English. 
+                </p>
+            </div>
+            <div id="socials-container">
+                <img src="picture/linkedin.jpg" alt="my linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/yibin-li-b894b526a/'">
+                <img src="picture/github.jpeg" alt="my github profile" class="icon" onclick="location.href='https://github.com/YibinLi-Alan'">
+                <a href="mailto:yl1857@scarletmail.rutgers.edu"><img src="picture/gmail.svg" alt="Email Me" class="icon" ></a> </div>
+        </div>
+        </section>
+
+            <!--divid-->
+            <div class="divider"></div>
+            <!--divid-->
+        
+            <!--section for intership-->
+        <section id="internship_section">
+            <div class="internship">
+                <h1>Internship Experience</h1>
+                <div class="intership_1">
+                    <img src="picture/images.png" alt="Northeastern Securities's Logo">
+                    <h2><spin id="spin">Company Name:</spin> Northeastern Securities</h2>
+                    <P class="internship_locatoin"><spin id="spin">Location:</spin> Changchun,China</P>
+                    <p class="internship_title"><spin id="spin">Role:</spin> Data Analysis Intern</p>  
+                    <p class="intern_time"><spin id="spin">Time:</spin> June 2024 to Aug. 2024</p>
+                    <p class="idid1"><spin id="spin">Things I did:</spin></p>
+                    <p class="intern_experience">•	Cleaned and organized daily financial data using Excel, with a focus on key metrics such as major resistance levels, sell points, and historical highest selling prices.</p>
+                    <P class="intern_experience">•	Developed custom data visualizations in Tableau for individual securities and improved client engagement and comprehension of market conditions</P>
+                    <p class="intern_experience">•	Optimized data processes to enhance the clarity and accessibility of financial insights for non-professional clients</p>
+                </div>
+
+                <div class="divider2"></div>
+
+                <div class="intership_2">
+                    <img src="picture/2048px-HP_logo_2012.svg.png" alt="HP Tech Venture's Logo">
+                    <h2><spin id="spin">Company Name:</spin> HP Tech Venture</h2>
+                    <p class="internship_location"><spin id="spin">Location:</spin> Remote</p>
+                    <p class="internship_title"><spin id="spin">Role:</spin> Venture Capital & Business Analytics Specialist (extern)</p>
+                    <p class="intern_time"><spin id="spin">Time:</spin> June 2023 to Aug. 2023</p>
+                    <p class="idid2"><spin id="spin">Things I did:</spin></p>
+                    <p class="intern_experience">•	Researched the market for productivity software and analyzed macro trends and key players by reviewing reports and articles to understand HPTV’s investment criteria and identify potential deals</p>
+                    <p class="intern_experience">•	Sourced over 50 startup companies and screened them through productivity tool filter and financing round filter to identify those meeting Z-Central requirements, developed detailed profiles for 5 selected startups, including information on company background, products, revenue, funding sources, and more</p>
+                    <p class="intern_experience">•	Utilized Excel for data cleaning and management, performed data analysis using regression models, visualized the correlation between funding amount and employee count, predicted future growth trends, and identified the most attractive startup company for investment</p>
+                    <p class="intern_experience">•	Leveraged SQL calculations and data analysis to derive summaries, presented and correlated data to recommend the top selected startup company to leadership</p>
+                </div>
+
+                <div class="divider2"></div>
+
+                <div class="intership_3">
+                    <img src="picture/imagesjilinbank.jpeg" alt="Jilin Longjing Rural Commercial Bank Company Limited's Logo">
+                    <h2><spin id="spin">Company Name:</spin> Longjing Rural Commercial Bank Company </h2>
+                    <p class="internship_location"><spin id="spin">Location:</spin> Longjing, China</p>
+                    <p class="internship_title"><spin id="spin">Role:</spin> Financial Bond Investment Business Intern</p>
+                    <p class="intern_time"><spin id="spin">Time:</spin> Oct. 2020 to Dec. 2020</p>
+                    <p class="idid3"><spin id="spin">Things I did:</spin></p>
+                    <p class="intern_experience">•	Assisted the bond investment department in sourcing and gathering information on 5 potential AAA-rated government and corporate bonds, prepared a one-year price fluctuation chart, debt-related reports, transaction volumes, maturities, and other essential bond information for each of the selected bonds</p>
+                    <p class="intern_experience">•	Supported the department in short- and long-term trading of government bonds, interest-rate bonds, and corporate credit bonds on the OTC market platform and contributed to a departmental profit of approximately 400,000 CNY</p>
+                </div>
+            </div>
+        </section>
+
+            <!--divid-->
+            <div class="divider"></div>
+            <!--divid-->
+        
+        <section id="research_publication">
+            <div class="Research_Projects">
+                <h1>Research Projects and Publications</h1>
+                <div class="Research_Introduction">
+                    <h2>Topic: Business Analytics - Decision Models and Risk Analysis</h2>
+                    <p class="research_instuctor"><spin id="spin">Advisor:</spin> Prof. Arnesano from USC</p>
+                    <p class="research_time"><spin id="spin">Time:</spin>Mar. 2024 to Aug. 2024</p>
+                    <p class="experence_in_research"><spin id="spin">What I did during resesarch?</spin></p>
+                    <p class="research_experience">•	Conducted a 90-day intensive study on machine learning models, including neural networks, decision trees, and logistic regression, and reviewed over 20 research papers in two weeks</p>
+                    <p class="research_experience">•	Led a project predicting customer churn for Mega Bank using a Kaggle dataset, built and compared models, and presented outcomes to the advisor</p>
+                    <p class="research_experience">•	Collaborated with another team to compile and refine their research paper, facilitated mutual support and knowledge exchange, and co-authored two research papers</p>
+                </div>
+
+                <div class="divider2"></div>
+
+                <div class="publication">
+                    <h2>Publications</h2>
+                    <p class="publications"><spin id="spin">Paper Name:</spin> Three Basic Machine Learning Models’ Suitability for Predicting Bank Churn</p>
+                    <p class="publication_member"><spin id="spin">Authors:</spin> Yibin Li, Mingze Gao, Yanfu Zhang, Changbin Feng, Luyun Zhang, Muxi Chen</p>
+                    <a href="paper/bank churn.docx" class="download-button" download>Download Paper</a>
+                    <p class="publications"><spin id="spin">Paper Name:</spin> A USA Airline Business Traveler Loyalty Model: Cost-Effective Approaches to Enhance Customer Retention</p>
+                    <p class="publication_member"><spin id="spin">Authors:</spin> Yibin Li, Mingze Gao, Yanfu Zhang, Changbin Feng, Luyun Zhang, Muxi Chen</p>
+                    <a href="paper/Research Paper - Group 1 Final Version.docx" class="download-button" download>Download Paper</a>
+                </div>
+            </div>
+        </section>
+
+            <!--divid-->
+            <div class="divider"></div>
+            <!--divid-->
+        <section id="hobbies_forme">
+            <div class="hobbies">
+                <h1>Hobbies</h1>
+                <div class="cs2">
+                    <h2>Video Game</h2>
+                    <img    src="picture/capsule_616x353.jpg" alt="CS2">
+                    <p id="ht">CS2</p>
+                    <p class="hobby_intro">I played this game for 5 years. This is one of my favorate game.</p>
+                </div>
+                <div class="ED">
+                    <img  src="picture/elden-ring-01.jpg" alt="Elden Ring">
+                    <p id="ht">Elden Ring</p>
+                    <p class="hobby_intro">This is the best game ever that I played!</p>
+                </div>
+                <div class="gym">
+                    <h2>Sports</h2>
+                    <img  src="picture/Gym-structure-1080x675.png" alt="gym">
+                    <p id="ht">Gym</p>
+                    <p class="hobby_intro">Just started recently</p>
+                </div>
+                <div class="bk">
+                    <img  src="picture/images.jpeg" alt="basketball">
+                    <p id="ht">Basketball</p>
+                    <p class="hobby_intro">Played for few years, but didn't play for a long time.</p>
+                </div>
+            </div>
+        </section>
+
+            <div class="divider"></div>
+
+            <footer id="footer">
+               <nav>
+                <div class="nav_links_contain">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#internship_experience">Intership</a></li>
+                        <li><a href="#Research">Research & Publication</a></li>
+                        <li><a href="#Hobbies">Hobbies</a></li>
+                    </ul>
+                </div>
+               </nav>
+               <p>Copyright &#169; 2024 Yibin Li. All Rights Reserved.</p>
+            </footer>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
