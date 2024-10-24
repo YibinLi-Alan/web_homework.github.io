@@ -409,8 +409,9 @@ nav {
 /************hobbies****/
 .cs2,.ED,.gym,.bk{
     display:table;
-    width:100%;
+    width:80%;
     margin-left:30px;
+
 }
 
 .hobbies img{
@@ -431,8 +432,8 @@ nav {
     background: white;
     border-radius: 2rem;
     border: 0.1rem solid rgb(163, 163, 163); 
+    padding: 20px;
     margin-bottom: 25px;
-    width: 100%; 
 }
 
 /**************footer***/
