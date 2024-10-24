@@ -440,76 +440,7 @@ footer p {
 
 
 
-/* For screens smaller than 1200px (Tablets) */
-@media screen and (max-width: 1200px) {
-    #main {
-        width: 90%;
-    }
-    h1 {
-        font-size: 28px;
-    }
-    h2 {
-        font-size: 22px;
-    }
-    p {
-        font-size: 14px;
-    }
-}
 
-/* For mobile devices smaller than 768px */
-@media screen and (max-width: 768px) {
-    #nav {
-        flex-direction: column;
-    }
-    #main {
-        width: 95%;
-    }
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 12px;
-        line-height: 24px;
-    }
-    #profile_picture {
-        text-align: center;
-    }
-    #myself {
-        width: 100%;
-        height: auto;
-    }
-    .internship img {
-        width: 100%;
-        float: none;
-        margin-right: 0;
-    }
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
-@media screen and (max-width: 768px) {
-    #desktop-nav {
-        display: none;
-    }
-    #humberger-nav {
-        display: flex;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-}
